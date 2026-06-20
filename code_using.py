@@ -12,6 +12,7 @@ class Bank:
         if self.__pin==num:
             return True
         return False
+    #this is used to check the balance
     def checkbalance(self):
         password=input("bhayya pin enter karo::")
         if self.__verify(password):
