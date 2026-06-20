@@ -40,6 +40,7 @@ class Bank:
             print("your new pin is:",self.__pin)
     def showaddress(self):
         print(self._address)
+#this is object by using this we can access
 b=Bank("dj",900,362500,2005,"vadarevu")
 b.checkbalance()
 #this is all code...  
