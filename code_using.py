@@ -41,6 +41,7 @@ class Bank:
     def showaddress(self):
         print(self._address)
 #this is object by using this we can access
+#for one class we can create n number of objects
 b=Bank("dj",900,362500,2005,"vadarevu")
 b.checkbalance()
 #this is all code...  
