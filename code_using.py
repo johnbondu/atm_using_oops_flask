@@ -1,5 +1,5 @@
 class Bank:
-    #it is constructor in python it is automatically invokes when the object is created
+    #it is constructor in python it is automatically invokes when the object is created.....
     def __init__(self,n,m,acc,p,ad):
         self.name=n
         self.__balance=0
