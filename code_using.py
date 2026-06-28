@@ -8,7 +8,7 @@ class Bank:
         self.__pin=p
         self._address=ad
 
-    def __verify(self,num):
+    def __verify(self,num):.....
         if self.__pin==num:
             return True
         return False
